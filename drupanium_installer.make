@@ -24,4 +24,5 @@ projects[drupanium_modules][subdir] = features
 projects[drupanium_modules][download][type] = "git"
 projects[drupanium_modules][download][url] = "git://github.com/lelizondo/drupanium_modules.git"
 
-
+; Patch to services_views
+projects[services_views][patch][] = "http://drupal.org/files/issues/incompatible-with-services-rc4-1235136-1.patch"
