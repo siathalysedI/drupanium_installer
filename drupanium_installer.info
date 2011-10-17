@@ -33,9 +33,13 @@ dependencies[] = devel
 dependencies[] = flag
 dependencies[] = views
 dependencies[] = devel_generate
+dependencies[] = services_views
 
 dependencies[] = drupanium
 dependencies[] = drupanium_debug
+
+dependencies[] = admin
+dependencies[] = views_ui
 
 
 
