@@ -1,0 +1,10 @@
+<?php
+require DRUPAL_ROOT . '/profiles/standard/standard.install';
+
+/**
+ * Implements hook_install().
+ */
+
+function drupanium_installer_install() {
+  standard_install();
+}
