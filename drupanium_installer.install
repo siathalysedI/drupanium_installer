@@ -7,4 +7,14 @@ require DRUPAL_ROOT . '/profiles/standard/standard.install';
 
 function drupanium_installer_install() {
   standard_install();
+	
+	// Create node 1
+	$node = new stdClass();
+	$node->title = "Instructions";
+	$node->type = "article";
+	$node->uid = 1;
+	$node->status = 1;
+	$node->body['und']['value'] = "Welcome. You should generate some content first and then visit the Drupanium Debug, after that you should download the Drupanium App Source Code and start playing with it, enjoy.";
+
+	node_save($node);
 }
