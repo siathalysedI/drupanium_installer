@@ -12,6 +12,7 @@ projects[flag_service][subdir] = "contrib"
 projects[views][subdir] = "contrib"
 projects[services_views][subdir] = "contrib"
 projects[strongarm][subdir] = "contrib"
+projects[geolocation][subdir] = "contrib"
 
 projects[services_search][type] = module
 projects[services_search][subdir] = contrib
